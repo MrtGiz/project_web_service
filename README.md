@@ -9,14 +9,14 @@ WEB SERVICE (test)
 
 Инструкция по запуску
 ---------------------
-Настройка среды разработки
-__________________________
+#### Настройка среды разработки
+
 
 Клолнирование проекта:
 
 
-    git clone https://github.com/MrtGiz/project_web_service.git
-    cd aio-pika
+    $ git clone https://github.com/MrtGiz/project_web_service.git
+    $ cd aio-pika
 
 Создание нового virtualenv:
 
@@ -25,10 +25,10 @@ __________________________
 Установка необходимых зависимостей:
 
     $ pip install aiohttp
+___________________
 
+#### Запуск проекта
 
-Запуск проекта
-______________
 В корневой папке проекта:
 
     $ docker-compose up
@@ -36,11 +36,13 @@ ______________
 После запуска всех сервисов для тестирования приема POST запросов:
 
     $ python client.py
-    
-Мониторинг состояния БД и брокера сообщений
-___________________________________________
+
+________________________________________________  
+#### Мониторинг состояния БД и брокера сообщений
 
 
-Администрирование БД: http://localhost:8090/    (user/pass: postgres/qwerty123)
+Администрирование БД: 
+- http://localhost:8090/    (user/pass: postgres/qwerty123)
 
-Мониторинг RabbitMQ: http://localhost:15672/    (user/pass: guest/guest)
+Мониторинг RabbitMQ: 
+- http://localhost:15672/    (user/pass: guest/guest)
