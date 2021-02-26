@@ -1,6 +1,6 @@
 aio-pika==6.5.3
 aiocontextvars==0.2.2
-aiohttp==3.6.2
+aiohttp==3.7.4
 aiormq==3.2.1
 async-timeout==3.0.1
 asyncpg==0.20.1
